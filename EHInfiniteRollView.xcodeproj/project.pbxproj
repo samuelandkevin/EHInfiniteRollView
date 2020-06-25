@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2465FD524A49F1100C91E56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2465FD424A49F1100C91E56 /* AppDelegate.swift */; };
+		A2465FD724A49F1100C91E56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2465FD624A49F1100C91E56 /* SceneDelegate.swift */; };
+		A2465FD924A49F1100C91E56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2465FD824A49F1100C91E56 /* ViewController.swift */; };
+		A2465FDC24A49F1100C91E56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2465FDA24A49F1100C91E56 /* Main.storyboard */; };
+		A2465FDE24A49F1500C91E56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2465FDD24A49F1500C91E56 /* Assets.xcassets */; };
+		A2465FE124A49F1500C91E56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2465FDF24A49F1500C91E56 /* LaunchScreen.storyboard */; };
+		A2465FF024A49F5500C91E56 /* EHWelcomePage4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2465FE824A49F5500C91E56 /* EHWelcomePage4.swift */; };
+		A2465FF124A49F5500C91E56 /* EHWelcomePage6.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2465FE924A49F5500C91E56 /* EHWelcomePage6.swift */; };
+		A2465FF324A49F5500C91E56 /* EHWelcomePage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2465FEB24A49F5500C91E56 /* EHWelcomePage1.swift */; };
+		A2465FF424A49F5500C91E56 /* EHWelcomePage3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2465FEC24A49F5500C91E56 /* EHWelcomePage3.swift */; };
+		A2465FF524A49F5500C91E56 /* EHWelcomePage5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2465FED24A49F5500C91E56 /* EHWelcomePage5.swift */; };
+		A2465FF624A49F5500C91E56 /* EHWelcomeCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2465FEE24A49F5500C91E56 /* EHWelcomeCollectionView.swift */; };
+		A2465FF724A49F5500C91E56 /* EHWelcomePage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2465FEF24A49F5500C91E56 /* EHWelcomePage2.swift */; };
+		A2465FFA24A49FB600C91E56 /* EHWelcomeScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2465FF924A49FB600C91E56 /* EHWelcomeScrollView.swift */; };
+		A2465FFC24A4A00F00C91E56 /* Others.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2465FFB24A4A00F00C91E56 /* Others.swift */; };
+		FD56EDA1D5DBC1533A5ADAAD /* Pods_EHInfiniteRollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D62D8BC8244FD966CD279B7C /* Pods_EHInfiniteRollView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6889425D054EAA2580C26CF0 /* Pods-EHInfiniteRollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EHInfiniteRollView.debug.xcconfig"; path = "Target Support Files/Pods-EHInfiniteRollView/Pods-EHInfiniteRollView.debug.xcconfig"; sourceTree = "<group>"; };
+		A2465FD124A49F1100C91E56 /* EHInfiniteRollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EHInfiniteRollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2465FD424A49F1100C91E56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2465FD624A49F1100C91E56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A2465FD824A49F1100C91E56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2465FDB24A49F1100C91E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2465FDD24A49F1500C91E56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2465FE024A49F1500C91E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2465FE224A49F1500C91E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2465FE824A49F5500C91E56 /* EHWelcomePage4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EHWelcomePage4.swift; sourceTree = "<group>"; };
+		A2465FE924A49F5500C91E56 /* EHWelcomePage6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EHWelcomePage6.swift; sourceTree = "<group>"; };
+		A2465FEB24A49F5500C91E56 /* EHWelcomePage1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EHWelcomePage1.swift; sourceTree = "<group>"; };
+		A2465FEC24A49F5500C91E56 /* EHWelcomePage3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EHWelcomePage3.swift; sourceTree = "<group>"; };
+		A2465FED24A49F5500C91E56 /* EHWelcomePage5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EHWelcomePage5.swift; sourceTree = "<group>"; };
+		A2465FEE24A49F5500C91E56 /* EHWelcomeCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EHWelcomeCollectionView.swift; sourceTree = "<group>"; };
+		A2465FEF24A49F5500C91E56 /* EHWelcomePage2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EHWelcomePage2.swift; sourceTree = "<group>"; };
+		A2465FF924A49FB600C91E56 /* EHWelcomeScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EHWelcomeScrollView.swift; sourceTree = "<group>"; };
+		A2465FFB24A4A00F00C91E56 /* Others.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Others.swift; sourceTree = "<group>"; };
+		A2465FFE24A4A05D00C91E56 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD45B7DBC9B7934874CBBA92 /* Pods-EHInfiniteRollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EHInfiniteRollView.release.xcconfig"; path = "Target Support Files/Pods-EHInfiniteRollView/Pods-EHInfiniteRollView.release.xcconfig"; sourceTree = "<group>"; };
+		D62D8BC8244FD966CD279B7C /* Pods_EHInfiniteRollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EHInfiniteRollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2465FCE24A49F1100C91E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD56EDA1D5DBC1533A5ADAAD /* Pods_EHInfiniteRollView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05D4CAD72FCB3F378FBAA6C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6889425D054EAA2580C26CF0 /* Pods-EHInfiniteRollView.debug.xcconfig */,
+				AD45B7DBC9B7934874CBBA92 /* Pods-EHInfiniteRollView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A2465FC824A49F1100C91E56 = {
+			isa = PBXGroup;
+			children = (
+				A2465FD324A49F1100C91E56 /* EHInfiniteRollView */,
+				A2465FD224A49F1100C91E56 /* Products */,
+				A2465FFD24A4A05D00C91E56 /* Frameworks */,
+				05D4CAD72FCB3F378FBAA6C4 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A2465FD224A49F1100C91E56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2465FD124A49F1100C91E56 /* EHInfiniteRollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2465FD324A49F1100C91E56 /* EHInfiniteRollView */ = {
+			isa = PBXGroup;
+			children = (
+				A2465FF824A49FB600C91E56 /* EHInfiniteRollView */,
+				A2465FD424A49F1100C91E56 /* AppDelegate.swift */,
+				A2465FD624A49F1100C91E56 /* SceneDelegate.swift */,
+				A2465FD824A49F1100C91E56 /* ViewController.swift */,
+				A2465FDA24A49F1100C91E56 /* Main.storyboard */,
+				A2465FEE24A49F5500C91E56 /* EHWelcomeCollectionView.swift */,
+				A2465FEB24A49F5500C91E56 /* EHWelcomePage1.swift */,
+				A2465FEF24A49F5500C91E56 /* EHWelcomePage2.swift */,
+				A2465FEC24A49F5500C91E56 /* EHWelcomePage3.swift */,
+				A2465FE824A49F5500C91E56 /* EHWelcomePage4.swift */,
+				A2465FED24A49F5500C91E56 /* EHWelcomePage5.swift */,
+				A2465FE924A49F5500C91E56 /* EHWelcomePage6.swift */,
+				A2465FFB24A4A00F00C91E56 /* Others.swift */,
+				A2465FDD24A49F1500C91E56 /* Assets.xcassets */,
+				A2465FDF24A49F1500C91E56 /* LaunchScreen.storyboard */,
+				A2465FE224A49F1500C91E56 /* Info.plist */,
+			);
+			path = EHInfiniteRollView;
+			sourceTree = "<group>";
+		};
+		A2465FF824A49FB600C91E56 /* EHInfiniteRollView */ = {
+			isa = PBXGroup;
+			children = (
+				A2465FF924A49FB600C91E56 /* EHWelcomeScrollView.swift */,
+			);
+			path = EHInfiniteRollView;
+			sourceTree = "<group>";
+		};
+		A2465FFD24A4A05D00C91E56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2465FFE24A4A05D00C91E56 /* UIKit.framework */,
+				D62D8BC8244FD966CD279B7C /* Pods_EHInfiniteRollView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2465FD024A49F1100C91E56 /* EHInfiniteRollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2465FE524A49F1500C91E56 /* Build configuration list for PBXNativeTarget "EHInfiniteRollView" */;
+			buildPhases = (
+				8EA1927818FF343535322B58 /* [CP] Check Pods Manifest.lock */,
+				A2465FCD24A49F1100C91E56 /* Sources */,
+				A2465FCE24A49F1100C91E56 /* Frameworks */,
+				A2465FCF24A49F1100C91E56 /* Resources */,
+				32E98380AC1267E1A6CB323E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EHInfiniteRollView;
+			productName = EHInfiniteRollView;
+			productReference = A2465FD124A49F1100C91E56 /* EHInfiniteRollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2465FC924A49F1100C91E56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "黄坤鹏";
+				TargetAttributes = {
+					A2465FD024A49F1100C91E56 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = A2465FCC24A49F1100C91E56 /* Build configuration list for PBXProject "EHInfiniteRollView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2465FC824A49F1100C91E56;
+			productRefGroup = A2465FD224A49F1100C91E56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2465FD024A49F1100C91E56 /* EHInfiniteRollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2465FCF24A49F1100C91E56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2465FE124A49F1500C91E56 /* LaunchScreen.storyboard in Resources */,
+				A2465FDE24A49F1500C91E56 /* Assets.xcassets in Resources */,
+				A2465FDC24A49F1100C91E56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32E98380AC1267E1A6CB323E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EHInfiniteRollView/Pods-EHInfiniteRollView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EHInfiniteRollView/Pods-EHInfiniteRollView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EHInfiniteRollView/Pods-EHInfiniteRollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EA1927818FF343535322B58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EHInfiniteRollView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2465FCD24A49F1100C91E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2465FF424A49F5500C91E56 /* EHWelcomePage3.swift in Sources */,
+				A2465FD924A49F1100C91E56 /* ViewController.swift in Sources */,
+				A2465FF024A49F5500C91E56 /* EHWelcomePage4.swift in Sources */,
+				A2465FFA24A49FB600C91E56 /* EHWelcomeScrollView.swift in Sources */,
+				A2465FD524A49F1100C91E56 /* AppDelegate.swift in Sources */,
+				A2465FF124A49F5500C91E56 /* EHWelcomePage6.swift in Sources */,
+				A2465FF624A49F5500C91E56 /* EHWelcomeCollectionView.swift in Sources */,
+				A2465FD724A49F1100C91E56 /* SceneDelegate.swift in Sources */,
+				A2465FFC24A4A00F00C91E56 /* Others.swift in Sources */,
+				A2465FF524A49F5500C91E56 /* EHWelcomePage5.swift in Sources */,
+				A2465FF324A49F5500C91E56 /* EHWelcomePage1.swift in Sources */,
+				A2465FF724A49F5500C91E56 /* EHWelcomePage2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2465FDA24A49F1100C91E56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2465FDB24A49F1100C91E56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2465FDF24A49F1500C91E56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2465FE024A49F1500C91E56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2465FE324A49F1500C91E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2465FE424A49F1500C91E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2465FE624A49F1500C91E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6889425D054EAA2580C26CF0 /* Pods-EHInfiniteRollView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EHInfiniteRollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.samuelandkevin.EHInfiniteRollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2465FE724A49F1500C91E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD45B7DBC9B7934874CBBA92 /* Pods-EHInfiniteRollView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EHInfiniteRollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.samuelandkevin.EHInfiniteRollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2465FCC24A49F1100C91E56 /* Build configuration list for PBXProject "EHInfiniteRollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2465FE324A49F1500C91E56 /* Debug */,
+				A2465FE424A49F1500C91E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2465FE524A49F1500C91E56 /* Build configuration list for PBXNativeTarget "EHInfiniteRollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2465FE624A49F1500C91E56 /* Debug */,
+				A2465FE724A49F1500C91E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2465FC924A49F1100C91E56 /* Project object */;
+}
