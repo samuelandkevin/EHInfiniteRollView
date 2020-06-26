@@ -8,7 +8,6 @@
 
 import Foundation
 import UIKit
-import SnapKit
 class EHWelcomePage2 : EHWelcomePageBase {
     
     ///背景
@@ -20,7 +19,7 @@ class EHWelcomePage2 : EHWelcomePageBase {
     
     fileprivate lazy var lbT: UILabel = {
         //Intelligent test reading and smart charting for proven and unsurpassed accuracy.
-        let lbT = UILabel.eh_creatLabel(text: "Intelligent test reading and smart charting for proven and unsurpassed accuracy.", textAlignment:.center, textColor: "#383838".color, font: .systemFont(ofSize: fontAdapt(26), weight: .bold))
+        let lbT = UILabel.eh_creatLabel(text: "Intelligent test reading\nand smart charting for\nproven and unsurpassed\naccuracy.", textAlignment:.center, textColor: "#383838".color, font: .systemFont(ofSize: fontAdapt(26), weight: .bold))
         lbT.numberOfLines = 0
         return lbT
     }()
@@ -65,11 +64,16 @@ extension  EHWelcomePage2 {
         imgvBG.snp_makeConstraints { (make) in
             make.edges.equalTo(self)
         }
-        let imgv1H:CGFloat = imageHAdapt(387)
-        let imgv1W:CGFloat = imgv1H*375.0/387
+//        let imgv1H:CGFloat = imageHAdapt(387)
+//        let imgv1W:CGFloat = imgv1H*375.0/387
+        
+        let imgv1W:CGFloat = kScreenWidth
+        let imgv1H:CGFloat = 387.0/375*imgv1W
+        
         
         imgv1.snp_makeConstraints { (make) in
-            make.bottom.equalTo(imgv2.snp.top).offset(edgeAdapt(12))
+//            make.bottom.equalTo(imgv2.snp.top).offset(edgeAdapt(12))
+            make.bottom.equalTo(imgv2.snp.top).offset(edgeAdapt(fabs(imgv1H-imgv1W)))
             make.width.equalTo(imgv1W)
             make.height.equalTo(imgv1H)
             make.centerX.equalTo(self)

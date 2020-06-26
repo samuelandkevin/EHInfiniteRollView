@@ -26,7 +26,7 @@ class EHWelcomePage3 : EHWelcomePageBase {
     
     fileprivate lazy var lbT2: UILabel = {
         //Track your hormone progression visually.
-        let lbT2 = UILabel.eh_creatLabel(text: "Track your hormone progression visually.", textAlignment:.center, textColor: "#383838".color, font: .systemFont(ofSize: fontAdapt(26), weight: .bold))
+        let lbT2 = UILabel.eh_creatLabel(text: "Track your hormone\nprogression visually.", textAlignment:.center, textColor: "#383838".color, font: .systemFont(ofSize: fontAdapt(26), weight: .bold))
         lbT2.numberOfLines = 0
         return lbT2
     }()
@@ -70,11 +70,15 @@ extension  EHWelcomePage3 {
             make.edges.equalTo(self)
         }
         
-        let imgv1H:CGFloat = imageHAdapt(353)
-        let imgv1W:CGFloat = imgv1H*342.0/353
+//        let imgv1H:CGFloat = imageHAdapt(353)
+//        let imgv1W:CGFloat = imgv1H*342.0/353
+        
+        let imgv1W:CGFloat = kScreenWidth-EHScale_Value(35)
+        let imgv1H:CGFloat = 353.0/342*imgv1W
         
         imgv1.snp_makeConstraints { (make) in
-            make.bottom.equalTo(imgv2.snp.top).offset(edgeAdapt(80))
+//            make.bottom.equalTo(imgv2.snp.top).offset(edgeAdapt(80))
+            make.bottom.equalTo(imgv2.snp.top).offset(80.0/375*imgv1W)
             make.width.equalTo(imgv1W)
             make.height.equalTo(imgv1H)
             make.centerX.equalTo(self)

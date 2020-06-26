@@ -71,10 +71,15 @@ extension  EHWelcomePage4 {
             make.edges.equalTo(self)
         }
         
-        let imgv1H:CGFloat = imageHAdapt(364)
-        let imgv1W:CGFloat = imgv1H*333.0/364
+//        let imgv1H:CGFloat = imageHAdapt(364)
+//        let imgv1W:CGFloat = imgv1H*333.0/364
+        
+        let imgv1W:CGFloat = kScreenWidth-EHScale_Value(42)
+        let imgv1H:CGFloat = 364.0/333*imgv1W
+        
         imgv1.snp_makeConstraints { (make) in
-            make.bottom.equalTo(imgv2.snp.top).offset(edgeAdapt(75))
+//            make.bottom.equalTo(imgv2.snp.top).offset(edgeAdapt(75))
+            make.bottom.equalTo(imgv2.snp.top).offset(75.0/375*imgv1W)
             make.width.equalTo(imgv1W)
             make.height.equalTo(imgv1H)
             make.centerX.equalTo(self)

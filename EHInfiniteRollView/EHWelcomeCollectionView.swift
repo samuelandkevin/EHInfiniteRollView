@@ -240,7 +240,8 @@ class EHWelcomeCollectionView: UICollectionView,UICollectionViewDelegate,UIColle
         var offset:NSInteger = NSInteger(self.contentOffset.x / self.bounds.size.width)
         
         //第0页时，跳到索引imgUrls.count位置；最后一页时，跳到索引imgUrls.count-1位置
-        if offset == 0 || offset == (itemCount! - 1) {
+        guard let itemCount = itemCount else {return}
+        if offset == 0 || offset == (itemCount - 1) {
             if offset == 0 {
                 offset = imgUrls.count
             }else {

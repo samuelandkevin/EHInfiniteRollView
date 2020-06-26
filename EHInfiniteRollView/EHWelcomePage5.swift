@@ -26,7 +26,7 @@ class EHWelcomePage5 : EHWelcomePageBase {
     
     fileprivate lazy var lbT2: UILabel = {
         //Online consultation with doctor only one tap away.
-        let lbT2 = UILabel.eh_creatLabel(text: "Online consultation with doctor only one tap away.", textAlignment:.center, textColor: "#383838".color, font: .systemFont(ofSize: fontAdapt(26), weight: .bold))
+        let lbT2 = UILabel.eh_creatLabel(text: "Online consultation\nwith doctor only\none tap away.", textAlignment:.center, textColor: "#383838".color, font: .systemFont(ofSize: fontAdapt(26), weight: .bold))
         lbT2.numberOfLines = 0
         return lbT2
     }()
@@ -71,10 +71,16 @@ extension  EHWelcomePage5 {
             make.edges.equalTo(self)
         }
         
-        let imgv1H:CGFloat = imageHAdapt(361)
-        let imgv1W:CGFloat = imgv1H*375.0/361
+//        let imgv1H:CGFloat = imageHAdapt(361)
+//        let imgv1W:CGFloat = imgv1H*375.0/361
+        
+        
+        let imgv1W:CGFloat = kScreenWidth
+        let imgv1H:CGFloat = 361.0/375*imgv1W
+        
         imgv1.snp_makeConstraints { (make) in
-            make.bottom.equalTo(imgv2.snp.top).offset(edgeAdapt(75))
+//            make.bottom.equalTo(imgv2.snp.top).offset(edgeAdapt(75))
+            make.bottom.equalTo(imgv2.snp.top).offset(75.0/375*imgv1W)
             make.width.equalTo(imgv1W)
             make.height.equalTo(imgv1H)
             make.centerX.equalTo(self)

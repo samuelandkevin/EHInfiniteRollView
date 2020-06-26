@@ -69,14 +69,15 @@ extension  EHWelcomePage6 {
         imgvBG.snp_makeConstraints { (make) in
             make.edges.equalTo(self)
         }
-        let imgv1H:CGFloat = imageHAdapt(341)
-        let imgv1W:CGFloat = imgv1H*339.0/341
+//        let imgv1H:CGFloat = imageHAdapt(341)
+//        let imgv1W:CGFloat = imgv1H*339.0/341
         
         
-//        let imgv1W:CGFloat = kScreenWidth
-//        let imgv1H:CGFloat = 341.0/339*imgv1W
+        let imgv1W:CGFloat = kScreenWidth-EHScale_Value(20)
+        let imgv1H:CGFloat = 341.0/339*imgv1W
         imgv1.snp_makeConstraints { (make) in
-            make.bottom.equalTo(imgv2.snp.top)
+//            make.bottom.equalTo(imgv2.snp.top)
+            make.bottom.equalTo(imgv2.snp.top).offset(10.0/375*imgv1W)
             make.width.equalTo(imgv1W)
             make.height.equalTo(imgv1H)
             make.centerX.equalTo(self)
@@ -86,9 +87,9 @@ extension  EHWelcomePage6 {
             make.left.right.bottom.equalTo(self)
         }
         lbT1.snp_makeConstraints { (make) in
-            make.left.equalTo(self).offset(edgeAdapt(20))
+            make.left.equalTo(self).offset(edgeAdapt(20)+2)
             make.right.equalTo(self).offset(-edgeAdapt(20))
-            make.bottom.equalTo(imgv2.snp.top).offset(-kScreenHeight*192.0/812)
+            make.top.equalTo(imgv1).offset(90.0/375*imgv1W)
         }
         lbT2.snp_makeConstraints { (make) in
             make.left.equalTo(self).offset(edgeAdapt(20))
